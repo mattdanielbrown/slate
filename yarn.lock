@@ -1410,17 +1410,17 @@ jshint-stylish@^2.2.1:
     string-length "^1.0.0"
     text-table "^0.2.0"
 
-jshint@^2.9.4:
-  version "2.9.4"
-  resolved "https://registry.yarnpkg.com/jshint/-/jshint-2.9.4.tgz#5e3ba97848d5290273db514aee47fe24cf592934"
+jshint@^2.13.6:
+  version "2.13.6"
+  resolved "https://registry.yarnpkg.com/jshint/-/jshint-2.13.6.tgz#3679a2687a3066fa9034ef85d8c305613a31eec6"
+  integrity sha512-IVdB4G0NTTeQZrBoM8C5JFVLjV2KtZ9APgybDA1MK73xb09qFs0jCXyQLnCOp1cSZZZbvhq/6mfXHUTaDkffuQ==
   dependencies:
     cli "~1.0.0"
     console-browserify "1.1.x"
     exit "0.1.x"
     htmlparser2 "3.8.x"
-    lodash "3.7.x"
+    lodash "~4.17.21"
     minimatch "~3.0.2"
-    shelljs "0.3.x"
     strip-json-comments "1.0.x"
 
 json-schema@0.2.3:
@@ -1798,10 +1798,6 @@ lodash.values@~2.4.1:
   dependencies:
     lodash.keys "~2.4.1"
 
-lodash@3.7.x:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.7.0.tgz#3678bd8ab995057c07ade836ed2ef087da811d45"
-
 lodash@^4.0.0, lodash@^4.12.0, lodash@^4.13.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
@@ -1813,6 +1809,11 @@ lodash@~1.0.1:
 lodash@~4.16.4:
   version "4.16.6"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.16.6.tgz#d22c9ac660288f3843e16ba7d2b5d06cca27d777"
+
+lodash@~4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^1.0.0:
   version "1.0.2"
@@ -2578,10 +2579,6 @@ setprototypeof@1.0.2:
 setprototypeof@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.0.3.tgz#66567e37043eeb4f04d91bd658c0cbefb55b8e04"
-
-shelljs@0.3.x:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.3.0.tgz#3596e6307a781544f591f37da618360f31db57b1"
 
 shufflejs@^4.1.1:
   version "4.2.0"
