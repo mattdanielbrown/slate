@@ -335,6 +335,11 @@ clone@^1.0.0, clone@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
 
+clone@^2.1.1:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
+  integrity sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==
+
 cloneable-readable@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/cloneable-readable/-/cloneable-readable-1.0.0.tgz#a6290d413f217a61232f95e458ff38418cfb0117"
@@ -969,15 +974,16 @@ gulp-concat@^2.6.1:
     through2 "^2.0.0"
     vinyl "^2.0.0"
 
-gulp-hash@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/gulp-hash/-/gulp-hash-4.1.1.tgz#7779910f6c378686b62f88abbb57ebeef20945d0"
+gulp-hash@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/gulp-hash/-/gulp-hash-4.2.2.tgz#2cf4ad081ef7a65393a51e3df58f514f388f4523"
+  integrity sha512-uWCjiy7ZXCPu4aaTM454+ImCnrR+07MKdwpunDZU0I7oUd5+SfyDxxhYzgpzSRVSlCFWfBBqNY9vAL3m3F+3uw==
   dependencies:
     es6-promise "^2.1.1"
-    gulp-util "^2.2.17"
     lodash.assign "^2.4.1"
     lodash.template "^2.4.1"
     through2 "^2.0.0"
+    vinyl "^2.1.0"
 
 gulp-jshint@^2.0.4:
   version "2.0.4"
@@ -1050,7 +1056,7 @@ gulp-util@*, gulp-util@3.0.8, gulp-util@^3.0, gulp-util@^3.0.0, gulp-util@^3.0.5
     through2 "^2.0.0"
     vinyl "^0.5.0"
 
-gulp-util@^2.2.17, gulp-util@^2.2.19:
+gulp-util@^2.2.19:
   version "2.2.20"
   resolved "https://registry.yarnpkg.com/gulp-util/-/gulp-util-2.2.20.tgz#d7146e5728910bd8f047a6b0b1e549bc22dbd64c"
   dependencies:
@@ -2949,6 +2955,18 @@ vinyl@^2.0.0:
     clone-stats "^1.0.0"
     cloneable-readable "^1.0.0"
     is-stream "^1.1.0"
+    remove-trailing-separator "^1.0.1"
+    replace-ext "^1.0.0"
+
+vinyl@^2.1.0:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/vinyl/-/vinyl-2.2.1.tgz#23cfb8bbab5ece3803aa2c0a1eb28af7cbba1974"
+  integrity sha512-LII3bXRFBZLlezoG5FfZVcXflZgWP/4dCwKtxd5ky9+LOtM4CS3bIRQsmR1KMnMW07jpE8fqR2lcxPZ+8sJIcw==
+  dependencies:
+    clone "^2.1.1"
+    clone-buffer "^1.0.0"
+    clone-stats "^1.0.0"
+    cloneable-readable "^1.0.0"
     remove-trailing-separator "^1.0.1"
     replace-ext "^1.0.0"
 
