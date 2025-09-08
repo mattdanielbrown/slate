@@ -1000,9 +1000,10 @@ gulp-minify-css@^1.2.4:
     vinyl-bufferstream "^1.0.1"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-rename@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-1.2.2.tgz#3ad4428763f05e2764dec1c67d868db275687817"
+gulp-rename@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-2.1.0.tgz#3a9900f81f3a8338409ea5ea542affc25080d9f4"
+  integrity sha512-dGuzuH8jQGqCMqC544IEPhs5+O2l+IkdoSZsgd4kY97M1CxQeI3qrmweQBIrxLBbjbe/8uEWK8HHcNBc3OCy4g==
 
 gulp-sass@^3.1.0:
   version "3.1.0"
